@@ -1,50 +1,71 @@
 lockfileVersion: 5.4
 
-specifiers:
-  '@ianvs/prettier-plugin-sort-imports': 4.1.0
-  '@types/react': 18.2.22
-  '@types/react-dom': 18.2.7
-  '@typescript-eslint/eslint-plugin': 6.7.2
-  '@typescript-eslint/parser': 6.7.2
-  '@vitejs/plugin-react-swc': 3.3.2
-  autoprefixer: 10.4.16
-  eslint: 8.50.0
-  eslint-config-prettier: 9.0.0
-  eslint-plugin-react-hooks: 4.6.0
-  eslint-plugin-react-refresh: 0.4.3
-  husky: 8.0.3
-  lint-staged: 14.0.1
-  postcss: 8.4.30
-  prettier: 3.0.3
-  react: 18.2.0
-  react-dom: 18.2.0
-  tailwindcss: 3.3.3
-  typescript: 5.2.2
-  vite: 4.4.9
+importers:
 
-dependencies:
-  react: 18.2.0
-  react-dom: 18.2.0_react@18.2.0
+  .:
+    specifiers:
+      '@ianvs/prettier-plugin-sort-imports': 4.1.0
+      '@typescript-eslint/eslint-plugin': 6.7.2
+      '@typescript-eslint/parser': 6.7.2
+      eslint: 8.50.0
+      husky: 8.0.3
+      lint-staged: 14.0.1
+      prettier: 3.0.3
+      typescript: 5.2.2
+    devDependencies:
+      '@ianvs/prettier-plugin-sort-imports': 4.1.0_prettier@3.0.3
+      '@typescript-eslint/eslint-plugin': 6.7.2_4r6utkklqmqz3mwp43df6y7cyi
+      '@typescript-eslint/parser': 6.7.2_jk7qbkaijtltyu4ajmze3dfiwa
+      eslint: 8.50.0
+      husky: 8.0.3
+      lint-staged: 14.0.1
+      prettier: 3.0.3
+      typescript: 5.2.2
 
-devDependencies:
-  '@ianvs/prettier-plugin-sort-imports': 4.1.0_prettier@3.0.3
-  '@types/react': 18.2.22
-  '@types/react-dom': 18.2.7
-  '@typescript-eslint/eslint-plugin': 6.7.2_4r6utkklqmqz3mwp43df6y7cyi
-  '@typescript-eslint/parser': 6.7.2_jk7qbkaijtltyu4ajmze3dfiwa
-  '@vitejs/plugin-react-swc': 3.3.2_vite@4.4.9
-  autoprefixer: 10.4.16_postcss@8.4.30
-  eslint: 8.50.0
-  eslint-config-prettier: 9.0.0_eslint@8.50.0
-  eslint-plugin-react-hooks: 4.6.0_eslint@8.50.0
-  eslint-plugin-react-refresh: 0.4.3_eslint@8.50.0
-  husky: 8.0.3
-  lint-staged: 14.0.1
-  postcss: 8.4.30
-  prettier: 3.0.3
-  tailwindcss: 3.3.3
-  typescript: 5.2.2
-  vite: 4.4.9
+  apps/frontend:
+    specifiers:
+      '@ianvs/prettier-plugin-sort-imports': 4.1.0
+      '@types/react': 18.2.22
+      '@types/react-dom': 18.2.7
+      '@typescript-eslint/eslint-plugin': 6.7.2
+      '@typescript-eslint/parser': 6.7.2
+      '@vitejs/plugin-react-swc': 3.3.2
+      autoprefixer: 10.4.16
+      eslint: 8.50.0
+      eslint-config-prettier: 9.0.0
+      eslint-plugin-react-hooks: 4.6.0
+      eslint-plugin-react-refresh: 0.4.3
+      husky: 8.0.3
+      lint-staged: 14.0.1
+      postcss: 8.4.30
+      prettier: 3.0.3
+      react: 18.2.0
+      react-dom: 18.2.0
+      tailwindcss: 3.3.3
+      typescript: 5.2.2
+      vite: 4.4.9
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    devDependencies:
+      '@ianvs/prettier-plugin-sort-imports': 4.1.0_prettier@3.0.3
+      '@types/react': 18.2.22
+      '@types/react-dom': 18.2.7
+      '@typescript-eslint/eslint-plugin': 6.7.2_4r6utkklqmqz3mwp43df6y7cyi
+      '@typescript-eslint/parser': 6.7.2_jk7qbkaijtltyu4ajmze3dfiwa
+      '@vitejs/plugin-react-swc': 3.3.2_vite@4.4.9
+      autoprefixer: 10.4.16_postcss@8.4.30
+      eslint: 8.50.0
+      eslint-config-prettier: 9.0.0_eslint@8.50.0
+      eslint-plugin-react-hooks: 4.6.0_eslint@8.50.0
+      eslint-plugin-react-refresh: 0.4.3_eslint@8.50.0
+      husky: 8.0.3
+      lint-staged: 14.0.1
+      postcss: 8.4.30
+      prettier: 3.0.3
+      tailwindcss: 3.3.3
+      typescript: 5.2.2
+      vite: 4.4.9
 
 packages:
 
